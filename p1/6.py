@@ -9,6 +9,7 @@ for i in range(edad):
   senal=np.hstack((senal,ventana))
   matriz=np.vstack((matriz,ventana))
 
+
 plt.figure(figsize=(10, 6))
 plt.plot(senal, label='Señal')
 plt.title('Gráfica de la Señal Generada')
